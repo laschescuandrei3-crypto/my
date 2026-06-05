@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrei-Vlăduț Laschescu | Portofoliu</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color:#0d0d0d;
+    color:#f5f5f5;
+    line-height:1.7;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(135deg,#000000,#1a1a1a);
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header h2{
+    color:#bfbfbf;
+    font-weight:400;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background:#111;
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #333;
+    z-index:100;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#888;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+.section-title{
+    font-size:2rem;
+    margin-bottom:25px;
+    border-left:4px solid white;
+    padding-left:15px;
+}
+
+.card{
+    background:#161616;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:20px;
+    border:1px solid #2d2d2d;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+
+.skill-box{
+    background:#161616;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #2d2d2d;
+}
+
+.contact p{
+    margin-bottom:10px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111;
+    color:#999;
+    border-top:1px solid #333;
+}
+
+.highlight{
+    color:#ffffff;
+    font-weight:bold;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2.2rem;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Andrei-Vlăduț Laschescu</h1>
+    <h2>Student Informatică | Programare | Dezvoltare Software</h2>
+</header>
+
+<nav>
+    <a href="#despre">Despre Mine</a>
+    <a href="#educatie">Educație</a>
+    <a href="#cv">CV</a>
+    <a href="#competente">Competențe</a>
+    <a href="#proiecte">Proiecte</a>
+    <a href="#linkuri">Linkuri</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="despre">
+    <h2 class="section-title">Despre Mine</h2>
+
+    <div class="card">
+        <p>
+            Salut! Sunt <span class="highlight">Andrei-Vlăduț Laschescu</span>,
+            student în anul I la specializarea Informatică din cadrul
+            Universității Petrol-Gaze din Ploiești.
+        </p>
+
+        <br>
+
+        <p>
+            Sunt pasionat de programare și de dezvoltarea competențelor tehnice
+            necesare unei cariere în domeniul IT. Îmi place să învăț tehnologii noi,
+            să rezolv probleme și să lucrez la proiecte care îmi dezvoltă gândirea
+            logică și creativitatea.
+        </p>
+    </div>
+</section>
+
+<section id="educatie">
+    <h2 class="section-title">Educație</h2>
+
+    <div class="card">
+        <h3>Universitatea Petrol-Gaze din Ploiești</h3>
+        <p><strong>Facultatea de Litere și Științe</strong></p>
+        <p>Specializarea: Informatică</p>
+        <p>Perioada: 2025 - Prezent</p>
+        <p>Anul I</p>
+    </div>
+</section>
+
+<section id="cv">
+    <h2 class="section-title">CV</h2>
+
+    <div class="card">
+        <h3>Experiență Profesională</h3>
+        <br>
+
+        <h4>McDonald's</h4>
+        <p>Membru al echipei - 4 luni</p>
+
+        <ul>
+            <li>Comunicare eficientă cu clienții.</li>
+            <li>Lucru într-un mediu dinamic.</li>
+            <li>Colaborare și lucru în echipă.</li>
+            <li>Gestionarea responsabilităților zilnice.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Limbi Străine</h3>
+        <ul>
+            <li>Română - Nativ</li>
+            <li>Engleză - Nivel conversațional</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Alte Informații</h3>
+        <ul>
+            <li>Permis de conducere categoria B</li>
+        </ul>
+    </div>
+</section>
+
+<section id="competente">
+    <h2 class="section-title">Competențe</h2>
+
+    <div class="skills">
+
+        <div class="skill-box">
+            <h3>Programare</h3>
+            <p>C</p>
+            <p>C++</p>
+            <p>Java</p>
+            <p>Bash</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Competențe Tehnice</h3>
+            <p>Algoritmi</p>
+            <p>Rezolvarea problemelor</p>
+            <p>Aplicații pentru matematică</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Soft Skills</h3>
+            <p>Comunicare</p>
+            <p>Lucru în echipă</p>
+            <p>Organizare</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="proiecte">
+    <h2 class="section-title">Proiecte</h2>
+
+    <div class="card">
+        <h3>Programe pentru Matematică</h3>
+
+        <p>
+            Dezvoltarea unor aplicații și programe destinate rezolvării
+            problemelor matematice și automatizării calculelor.
+        </p>
+
+        <br>
+
+        <p><strong>Tehnologii utilizate:</strong></p>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+        </ul>
+    </div>
+</section>
+
+<section id="linkuri">
+    <h2 class="section-title">Linkuri Utile</h2>
+
+    <div class="card">
+        <p>
+            GitHub:
+            <a href="#" style="color:white;">
+                <a href="https://github.com/laschescuandrei3-crypto"
+   target="_blank"
+   style="color:white;">
+   github.com/laschescuandrei3-crypto
+</a>
+            </a>
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="card contact">
+        <p><strong>Email:</strong> Laschescuandrei3@gmail.com</p>
+        <p><strong>Telefon:</strong> 0734 133 197</p>
+        <p><strong>Oraș:</strong> Ploiești, România</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Andrei-Vlăduț Laschescu | Portofoliu Academic
+</footer>
+
+</body>
+</html>
